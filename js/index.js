@@ -55,11 +55,11 @@ document.querySelector(".date").innerHTML = dayy + month;
  
 // geolo 
 
-navigator.geolocation.getCurrentPosition(showPosition);
-function showPosition(position) {
-  var gelo =   position.coords.latitude + "," +  position.coords.longitude;
-  checkweather(gelo)
-  }
+// navigator.geolocation.getCurrentPosition(showPosition);
+// function showPosition(position) {
+//   var gelo =   position.coords.latitude + "," +  position.coords.longitude;
+//   checkweather(gelo)
+//   }
 
 
 
